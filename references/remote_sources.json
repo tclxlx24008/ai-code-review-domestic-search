@@ -5,27 +5,27 @@
     {
       "name": "team_conventions",
       "description": "团队代码开发规范",
-      "url": "",
+      "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/team_conventions.md",
       "fallback": "references/team_conventions.md",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "review_checklist",
       "description": "分类审查检查清单",
-      "url": "",
+      "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/review_checklist.md",
       "fallback": "references/review_checklist.md",
       "enabled": false
     },
     {
       "name": "dotnet_patterns",
       "description": ".NET/C# 审查模式",
-      "url": "",
+      "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/dotnet_patterns.md",
       "fallback": "references/dotnet_patterns.md",
       "enabled": false
     }
   ],
   "cache": {
-    "ttl_minutes": 60,
+    "ttl_minutes": 10,
     "说明": "远程内容缓存时间，避免频繁请求。同一会话内获取过的内容会被复用。"
   }
 }
