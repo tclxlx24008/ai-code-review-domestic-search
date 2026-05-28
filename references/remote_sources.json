@@ -1,0 +1,31 @@
+{
+  "$schema": "远程规范源配置",
+  "$说明": "定义团队规范的远程获取地址。审查时优先从远程拉取最新版本，失败时回退到本地 references/ 下的文件。",
+  "sources": [
+    {
+      "name": "team_conventions",
+      "description": "团队代码开发规范",
+      "url": "",
+      "fallback": "references/team_conventions.md",
+      "enabled": false
+    },
+    {
+      "name": "review_checklist",
+      "description": "分类审查检查清单",
+      "url": "",
+      "fallback": "references/review_checklist.md",
+      "enabled": false
+    },
+    {
+      "name": "dotnet_patterns",
+      "description": ".NET/C# 审查模式",
+      "url": "",
+      "fallback": "references/dotnet_patterns.md",
+      "enabled": false
+    }
+  ],
+  "cache": {
+    "ttl_minutes": 60,
+    "说明": "远程内容缓存时间，避免频繁请求。同一会话内获取过的内容会被复用。"
+  }
+}
