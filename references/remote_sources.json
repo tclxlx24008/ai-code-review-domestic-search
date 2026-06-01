@@ -8,20 +8,6 @@
       "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/team_conventions.md",
       "fallback": "references/team_conventions.md",
       "enabled": true
-    },
-    {
-      "name": "review_checklist",
-      "description": "分类审查检查清单",
-      "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/review_checklist.md",
-      "fallback": "references/review_checklist.md",
-      "enabled": false
-    },
-    {
-      "name": "dotnet_patterns",
-      "description": ".NET/C# 审查模式",
-      "url": "https://raw.githubusercontent.com/tclxlx24008/ai-code-review-domestic-search/main/references/dotnet_patterns.md",
-      "fallback": "references/dotnet_patterns.md",
-      "enabled": false
     }
   ],
   "cache": {
