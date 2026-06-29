@@ -692,16 +692,16 @@ public async Task<SearchResult> SearchAsync(SearchRequest request)
 }
 ```
 
-### 6. 【强制】代码中的 `if` 语句需要有注释进行解释说明。
+### 6. 【强制】代码中的多条件 `if` 语句需要有注释进行解释说明。
 
 ```csharp
-// 错误 - if 条件意图不明
+// 错误 - 多条件if 条件意图不明
 if (response.StatusCode == 302 && !request.IsRedirectAllowed)
 {
     throw new BusinessException("Redirect not allowed");
 }
 
-// 正确 - if 语句有注释说明判断意图
+// 正确 - 多条件if 语句有注释说明判断意图
 // 302 重定向且调用方未授权重定向时，视为异常
 if (response.StatusCode == 302 && !request.IsRedirectAllowed)
 {
